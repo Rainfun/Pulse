@@ -293,7 +293,7 @@ If an icon doesn't load, it falls back to a default package icon.
 ## Complete Example
 
 ```lua
-local Pulse = loadstring(game:HttpGet("YOUR_URL"))()
+local Pulse = loadstring(game:HttpGet("https://raw.githubusercontent.com/Rainfun/Pulse/refs/heads/main/A/Pulse",true))()
 
 local window = Pulse:CreateWindow({
     Name = "Example Hub",
